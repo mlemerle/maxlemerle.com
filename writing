@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Writing · Max Le Merle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="site-title">Max Le Merle</div>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="writing.html">Writing</a>
+      <a href="social-finance.html">Social Finance</a>
+      <a href="links.html">Links</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Writing</h1>
+    <p>
+      Essays, thoughts, etc.
+    </p>
+
+    <ul>
+      <li></li>
+      <!-- Add more as you publish -->
+    </ul>
+  </main>
+</body>
+</html>
