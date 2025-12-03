@@ -1,4 +1,4 @@
-/* Reset */
+/* Basic reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,64 +17,43 @@ body {
   padding: 2rem 1.5rem;
 }
 
-/* Overall page layout */
-.page {
-  max-width: 1100px;
+/* Centered column for header + main */
+.site-header,
+.site-main {
+  max-width: 720px;
   margin: 0 auto;
+}
+
+/* Horizontal nav at top */
+.site-header {
+  margin-bottom: 2rem;
+}
+
+.site-nav {
   display: flex;
-  align-items: flex-start;
+  gap: 2rem;           /* space between links */
 }
 
-/* Sidebar (left nav like Patrick's, but left side) */
-.sidebar {
-  width: 170px;
-  flex-shrink: 0;
-  margin-right: 3rem;
-  font-size: 0.9rem;
-}
-
-.name {
-  font-weight: 600;
-  margin-bottom: 0.5rem;
-}
-
-.sidebar nav a {
-  display: block;
+.site-nav a {
   text-decoration: none;
-  color: #0366d6;          /* link blue */
-  margin-bottom: 0.25rem;
+  color: #333;
+  font-size: 1rem;
 }
 
-.sidebar nav a:hover {
+.site-nav a:hover {
   text-decoration: underline;
 }
 
-/* Main content column */
-.content {
-  max-width: 720px;
-}
-
-h1 {
+/* Content */
+.site-main h1 {
   font-size: 1.6rem;
   margin-bottom: 1rem;
 }
 
-p {
+.site-main p {
   margin-bottom: 1rem;
 }
 
 a {
   color: #0366d6;
-}
-
-/* Mobile: stack nav on top */
-@media (max-width: 768px) {
-  .page {
-    flex-direction: column;
-  }
-
-  .sidebar {
-    margin-right: 0;
-    margin-bottom: 1.5rem;
-  }
 }
