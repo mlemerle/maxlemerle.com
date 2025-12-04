@@ -42,7 +42,7 @@ header, main {
 
 header {
   margin-bottom: 1.5rem;
-  border-bottom: 1px solid #222;  /* darker divider for dark bg */
+  border-bottom: 1px solid #cccccc;  /* darker divider for dark bg */
   padding-bottom: 1rem;
 }
 
@@ -77,7 +77,7 @@ main h2 {
 
 main h2 a {
   text-decoration: none;
-  color: #8ab4ff;       /* link color on dark bg */
+  color: #000;       /* link color on dark bg */
 }
 
 main h2 a:hover {
@@ -99,7 +99,7 @@ ul li {
 }
 
 a {
-  color: #8ab4ff;       /* global link color */
+  color: #000;       /* global link color */
   text-decoration: none;
 }
 
