@@ -24,14 +24,12 @@ body {
 
 .profile-photo {
   margin-bottom: 1rem;
-  text-align: left;
 }
 
 .profile-photo img {
-  max-width: 160px;   /* tweak size as you like */
-  border-radius: 50%; /* makes it circular */
+  max-width: 160px;
+  border-radius: 50%;
   display: block;
-  margin: 0 auto;
 }
 
 header, main {
