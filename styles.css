@@ -100,13 +100,23 @@ ul li {
 }
 
 main ul {
+  list-style: none;
+  margin-left: 0;
+}
+
+main ul li {
+  margin-bottom: 0.75rem;
+  line-height: 1.8;
+}
+
+/* Questions page: show bullets with specific styling */
+body > div > main > ul {
   list-style: disc;
   margin-left: 1.5rem;
 }
 
-main ul li {
-  margin-bottom: 1.5rem;
-  line-height: 1.8;
+body > div > main > ul li {
+  margin-bottom: 1rem;
 }
 
 main > ol {
