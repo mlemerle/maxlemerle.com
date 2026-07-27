@@ -156,3 +156,9 @@ a:hover {
 article {
   line-height: 1.8;
 }
+
+article + article {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #cccccc;
+}
